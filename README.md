@@ -89,9 +89,9 @@ For schools and other educational institutions, StudySphere offers a comprehensi
 
 ## Add Student
 
-<p align="center">
+<div align="center">
   <img width="425" height="240" src="images/quizAddStudent.jpg">
-</p>
+</div>
 
 
 ## Quiz Simulation

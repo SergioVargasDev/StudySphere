@@ -23,26 +23,22 @@
 ## Technology Stack
 
  ### Front-end:
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+React: Designed an intuitive and dynamic front-end for streamlined user interaction.
 
 ### Back-end:
-![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
+Node.js & Express.js: Built robust server-side APIs for real-time class management and quiz systems.
 
 ### Database:
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+PostgreSQL: Ensured secure and efficient data storage for students, classes, and quizzes.
 
 ### Hosting
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+Vercel: Deployed the platform, ensuring a reliable, scalable, and user-friendly web experience.
 
 ### AI Integration:
-
-![Open AI](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+OpenAI: Delivered AI-driven, personalized feedback to enhance student engagement and learning.
 
 ### Game Development:
-
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+Unity & C#: Developed "Astro Blast," an engaging stress-management game to support student well-being.
 
 ## Contribution
 
@@ -142,54 +138,3 @@ For schools and other educational institutions, StudySphere offers a comprehensi
 * **@mirelesDavid**
 * **@mnoriega-mx**
 * **@SergioVargasDev**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

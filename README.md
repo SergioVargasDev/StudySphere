@@ -3,6 +3,8 @@
   <img width="460" height="300" src="images/logo.jpg">
 </p>
 
+## Overview: 
+Developed a web app for WBAN Solution, the platform aims to motivate students through interactive avatars, real-time feedback, and a gamified environment that makes learning fun and dynamic. By incorporating adaptive AI, StudySphere offers tailored feedback and interactions that cater to individual learning styles and needs, addressing the specific challenges faced by WBAN Solution in enhancing student engagement and learning outcomes.
 
 ## Purpose
 

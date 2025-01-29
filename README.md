@@ -132,6 +132,11 @@ For schools and other educational institutions, StudySphere offers a comprehensi
 
 <img src= "images/tutorAI.jpg" width = 412> <img src= "images/tutorAI2.jpg" width = 412> 
 
+## Team
+
+<div align = "center">
+  <img src = "images/team.jpg" width="460" height="300">
+</div>
 ## Collaborators
 
 * **@ferp03**

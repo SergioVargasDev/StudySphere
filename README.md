@@ -135,7 +135,7 @@ For schools and other educational institutions, StudySphere offers a comprehensi
 ## Team
 
 <div align = "center">
-  <img src = "images/team.jpg" width="460" height="300">
+  <img src = "images/team.jpg" width="460">
 </div>
 ## Collaborators
 

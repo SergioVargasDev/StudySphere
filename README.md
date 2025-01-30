@@ -24,23 +24,23 @@ Developed a web app for WBAN Solution, the platform aims to motivate students th
 
 ## Technology Stack
 
- ### Front-end:
-React: Designed an intuitive and dynamic front-end for streamlined user interaction.
+### Front-end:
+* React: Designed an intuitive and dynamic front-end for streamlined user interaction.
 
 ### Back-end:
-Node.js & Express.js: Built robust server-side APIs for real-time class management and quiz systems.
+* Node.js & Express.js: Built robust server-side APIs for real-time class management and quiz systems.
 
 ### Database:
-PostgreSQL: Ensured secure and efficient data storage for students, classes, and quizzes.
+* PostgreSQL: Ensured secure and efficient data storage for students, classes, and quizzes.
 
 ### Hosting
-Vercel: Deployed the platform, ensuring a reliable, scalable, and user-friendly web experience.
+* Vercel: Deployed the platform, ensuring a reliable, scalable, and user-friendly web experience.
 
 ### AI Integration:
-OpenAI: Delivered AI-driven, personalized feedback to enhance student engagement and learning.
+* OpenAI: Delivered AI-driven, personalized feedback to enhance student engagement and learning.
 
 ### Game Development:
-Unity & C#: Developed "Astro Blast," an engaging stress-management game to support student well-being.
+* Unity & C#: Developed "Astro Blast," an engaging stress-management game to support student well-being.
 
 ## Contribution
 

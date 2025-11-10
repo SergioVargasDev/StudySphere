@@ -7,11 +7,8 @@ StudySphere is a comprehensive educational platform developed for WBAN Solution 
 
 - **Comprehensive Class Management**: Complete educator toolkit for class creation, student enrollment, and progress monitoring with intuitive dashboard interfaces.
 - **Interactive Learning Experience**: Engaging avatars, gamification elements, and point-based reward systems that motivate consistent student participation.
-- **AI-Powered Personalized Feedback**: Gemini LLM integration delivers adaptive feedback generation, identifying knowledge gaps and providing personalized learning insights.
 - **Real-Time Assessment System**: Instant quiz scoring, automated exam reminders, and immediate performance feedback for continuous learning improvement.
 - **Meeting Scheduling & Management**: Integrated scheduling system for teacher-student interactions and class coordination.
-- **Facial Verification Security**: Python and dlib-powered facial recognition for secure exam authentication and academic integrity.
-- **Stress Management Gaming**: Unity-developed "Astro Blast" game providing students with engaging stress-relief activities.
 
 ## Tech Stack
 
@@ -27,10 +24,6 @@ StudySphere is a comprehensive educational platform developed for WBAN Solution 
 ### Database
 - **PostgreSQL** – High-availability relational database for secure data storage and complex queries
 
-### AI & Machine Learning
-- **Google Gemini LLM** – Advanced language model for adaptive feedback generation and personalized learning insights
-- **Python & dlib** – Computer vision library for facial verification and biometric authentication
-
 ### Game Development
 - **Unity & C#** – Cross-platform game engine for "Astro Blast" stress-management game
 
@@ -43,7 +36,6 @@ StudySphere is a comprehensive educational platform developed for WBAN Solution 
 
 - **Node.js 16+** - Required for backend services and React frontend
 - **PostgreSQL 13+** - Database server for data persistence
-- **Python 3.8+** - For facial verification services
 - **Unity 2021.3 LTS+** - For game development (optional for core platform)
 
 ### Quick Start
@@ -128,10 +120,6 @@ studysphere/
 │   │   ├── routes/        # API route definitions
 │   │   └── services/      # External service integrations
 │   └── prisma/           # Database schema and migrations
-├── facial-verification/   # Python facial recognition service
-│   ├── main.py           # FastAPI server for face verification
-│   ├── models/           # Pre-trained dlib models
-│   └── utils/            # Image processing utilities
 ├── game/                 # Unity Astro Blast game
 │   ├── Assets/           # Game assets and scripts
 │   ├── Scenes/           # Unity scenes
@@ -162,74 +150,3 @@ cd server
 npm run dev
 ```
 
-#### 4. Facial Verification Service
-```bash
-cd facial-verification
-pip install -r requirements.txt
-python main.py
-```
-
-### Platform Usage
-
-Once the platform is running:
-
-1. **Teacher Dashboard**: Access comprehensive class management, student enrollment, and progress analytics
-2. **Student Portal**: Interactive learning interface with gamified elements and real-time feedback
-3. **Assessment Center**: Create and manage quizzes with automated grading and instant results
-4. **Meeting Scheduler**: Coordinate teacher-student meetings and virtual classroom sessions
-5. **Analytics Dashboard**: Monitor student performance, engagement metrics, and learning outcomes
-6. **Game Integration**: Access Astro Blast for stress management and student well-being
-
-### Educational Impact
-
-**For Students:**
-- 55% improvement in grades through personalized AI feedback
-- 41% increase in platform engagement time
-- Reduced academic stress through gamification and interactive elements
-- Enhanced learning retention with immediate feedback loops
-
-**For Educators:**
-- Streamlined class management and administrative tasks
-- Real-time insights into student performance and engagement
-- Automated assessment and grading capabilities
-- Data-driven teaching strategy optimization
-
-### Production Deployment
-
-For production environments:
-
-1. **Environment Setup**: Configure production environment variables and database connections
-2. **Security Configuration**: Enable HTTPS, configure CORS policies, and secure API endpoints
-3. **Performance Optimization**: Implement caching strategies and database optimization
-4. **Monitoring & Logging**: Set up error tracking, performance monitoring, and audit logging
-5. **Backup Strategy**: Configure automated database backups and disaster recovery
-
-### API Documentation
-
-The platform provides comprehensive RESTful APIs:
-
-- **Authentication Endpoints**: User registration, login, and JWT token management
-- **Class Management**: CRUD operations for classes, enrollments, and assignments
-- **Assessment APIs**: Quiz creation, submission handling, and automated grading
-- **Analytics Endpoints**: Student progress tracking and performance analytics
-- **Notification Services**: Automated reminders and communication systems
-
-### Troubleshooting
-
-**Common Issues:**
-
-- **Database Connection**: Verify PostgreSQL is running and connection string is correct
-- **API Authentication**: Check JWT token validity and API key configurations
-- **Facial Verification**: Ensure Python dependencies are installed and camera permissions are granted
-- **Game Integration**: Verify Unity WebGL build is properly deployed
-
-**Performance Optimization:**
-
-- Enable database query optimization and indexing
-- Implement Redis caching for frequently accessed data
-- Configure CDN for static asset delivery
-- Optimize React bundle size and implement code splitting
-
-### Contributing
-
-StudySphere is developed for WBAN Solution to enhance educational outcomes through technology innovation. The platform demonstrates significant impact in student engagement and academic performance while providing educators with powerful tools for modern classroom management.
